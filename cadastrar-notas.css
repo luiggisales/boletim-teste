@@ -261,7 +261,7 @@ body {
 }
 
 .card-form {
-    width: 50vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -390,7 +390,7 @@ select::-ms-expand {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0 1em;
+    padding: 0 0.8rem;
     background: #2b2e2e;
 
     cursor: pointer;
