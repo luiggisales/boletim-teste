@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="cadastrar-notas.css">
+    <title>Cadastrar Notas</title>
+</head>
+
+<body>
+    <nav class="sidebar">
+        <header>
+            <div class="text logo-text">
+                <h1 class="name">Boletim Online</h1>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+                    <li class="nav-links">
+                        <a href="./inicio.html">
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./menu-latera.html">
+                            <span class="text nav-text">Turma</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./cadastrar-notas.html">
+                            <span class="text nav-text">Cadastrar Notas</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <span class="text nav-text">Sair</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <main class="home">
+        <div class="container">
+            <div class="card-form">
+                <form class="form" method="post">
+                    <div class="input-control">
+                        <label for="nomeAluno">Nome do Aluno</label>
+                        <input type="text" placeholder="Nome" name="nomeAluno">
+                    </div>
+                    <div class="input-control">
+                        <label for="materia">Matéria</label>
+                        <div class="select">
+                            <select name="materia" id="materia">
+                                <option value="default">Nenhuma</option>
+                                <option value="biologia">Biologia</option>
+                                <option value="edFisica">Educação Física</option>
+                                <option value="filosofia">Filosofia</option>
+                                <option value="fisica">Física</option>
+                                <option value="geografia">Geografia</option>
+                                <option value="historia">História</option>
+                                <option value="ingles">Ingles</option>
+                                <option value="matematica1">Matemática 1</option>
+                                <option value="matematica2">Matemática 2</option>
+                                <option value="portugues1">Portuguẽs 1</option>
+                                <option value="portugues2">Portuguẽs 2</option>
+                                <option value="quimica">Química</option>
+                                <option value="redacao">Redação</option>
+                                <option value="sociologia">Sociologia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-control">
+                        <label for="avParcial">Nota da Avaliação Parcial</label>
+                        <input type="text" placeholder="Nota" name="avParcial">
+                    </div>
+                    <input type="button" value="Enviar" class="btn-enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./menu-lateral.js"></script>
+</body>
+
+</html>
