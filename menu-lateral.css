@@ -40,7 +40,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 230px;
+    width: 205px;
     padding: 10px 14px;
     background: var(--sidebar-color);
     transition: var(--tran-05);
@@ -333,6 +333,7 @@ body {
     main.cards section.card:last-child {
         margin-bottom: 0;
     }
+
 }
 
 @media (max-width: 524px) {
