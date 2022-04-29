@@ -287,6 +287,10 @@ body {
     flex-direction: column;
 }
 
+input.btn-enviar {
+    cursor: pointer;
+}
+
 .input-control {
     width: 92%;
     display: flex;
